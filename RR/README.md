@@ -11,3 +11,5 @@ burst: 10
 burst: 5
 burst: 8
 
+![Image text](https://github.com/Valentina17varela/Universidad-Tecnologica-de-Pereira/blob/main/RR/prueba.png)
+
