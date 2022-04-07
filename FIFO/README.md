@@ -1,27 +1,26 @@
-##Algoritmo de despacho FIFO
+## Algoritmo de despacho FIFO
 
 
-###Desarrollar un algoritmo FIFO de reemplazo de páginas, se debe permitir el ingreso de una secuencia de mínimo 12 
-###caracteres separadas por coma, e ingresar n cantidades de módulos de memoria, al final se debe visualizar el 
-###resultado por medio de una tabla.
+### Desarrollar un algoritmo FIFO de reemplazo de páginas, se debe permitir el ingreso de una secuencia de mínimo 12 caracteres separadas por coma, e ingresar n cantidades de módulos de memoria, al final se debe visualizar el resultado por medio de una tabla.
 
-###Ejemplos 
-###-----------------
+### Ejemplos 
+### ------------------------------------------------------------------------------------------------------------------
 
 
-###input 
+### input 
 ```bash
 Ingrese la secuencia (ej: 1,2,3,4... minimo 12 caracteres):
 3,4,6
 ```
 
-###output
+### output
 ```bash
 Ingrese una cadena de 12 caracteres o mas
 ```
 
-
-###input 
+#
+#
+### input 
 ```bash
 Ingrese la secuencia (ej: 1,2,3,4... minimo 12 caracteres):
 1,2,3,4,1,2,5,1,2,3,4,5
@@ -30,7 +29,7 @@ Ingrese la cantidad de modulos:
 4
 ```
 
-###output
+### output
 ```bash
 ╒═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╕
 │ 1   │ 2   │ 3   │ 4   │ 1   │ 2   │ 5   │ 1   │ 2   │ 3   │ 4   │ 5   │
@@ -48,8 +47,9 @@ Ingrese la cantidad de modulos:
 Cantidad de fallos: 10
 ```
 
-
-###input 
+#
+#
+### input 
 ```bash
 Ingrese la secuencia (ej: 1,2,3,4... minimo 12 caracteres):
 3,2,1,0,3,2,4,3,2,1,0,4
@@ -58,7 +58,7 @@ Ingrese la cantidad de modulos:
 3
 ```
 
-###output
+### output
 ```bash
 ╒═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╤═════╕
 │ 3   │ 2   │ 1   │ 0   │ 3   │ 2   │ 4   │ 3   │ 2   │ 1   │ 0   │ 4   │
