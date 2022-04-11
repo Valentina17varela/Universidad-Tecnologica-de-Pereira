@@ -1,0 +1,8 @@
+Cuando la aplicacion se ejecuta se crea una base de datos para administrar el inventario 
+y llevar la contabilidad de las facturas, estos archivos se iran actualizando mientras la 
+aplicacion este en ejecucion.
+
+Se crea un archivo "caja.txt" para llevar administrar la caja.
+
+Los archivos de "facturas.db" y "caja.txt" se pueden eliminar o dejar ya que no interrumpe el funcionamiento del aplicativo.
+(Estos se crean automaticamente cada que se ejecuta nuevamente el codigo)
