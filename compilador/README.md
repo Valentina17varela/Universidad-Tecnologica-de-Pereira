@@ -1,6 +1,7 @@
 # **Compilador Mini C**
+Compilador simplificado del lenguaje C. Las reglas gramaticales que utiliza este lenguaje se encuentran especificadas en  ```minic.txt ```.
 
-Para iniciar el programa ejecutar el archivo
+Para iniciar el programa ejecutar el archivo:
 ```
 miniC.py
 ```
@@ -14,6 +15,12 @@ El compilador puede realizar las siguientes operaciones:
 <br>
 
   ### Analisis sintactico
+  
+  DESCRIPCION
+  <br>
+Esta parte es la encargada de transformar la entrada en un arbol de derivacion (AST). Para esto el lexer lee la entrada e identifica y clasifica cada uno de los      tokens que hacen parte de la entrada, luego el analizador descendente identifica las jerarquias que presentan los tipos de los tokens y los organiza en un AST, el cual es impreso por la funcion de DotRender.
+
+  PRUEBA FUNCIONAMIENTO
   ```
   $ a = b * 4 + 5
   ```
@@ -42,6 +49,12 @@ El compilador puede realizar las siguientes operaciones:
 
 
   ### Analisis semantico
+  
+   DESCRIPCION
+  <br>
+  Este analizador utiliza la información recoletada por el arbol de derivacion para comprobar la consistencia semantica de la entrada con la definicion del lenguaje. Despues de ejecutar el lexer y realizar la tokenizacion, se organiza la informacion en una tabla de simbolos que recibe el tipo y el valor del token para realizar la clasificacion, para finalizar se hace uso de la libreria  ```tabulate``` para realizar la impresion de la tabla.
+  
+   PRUEBA FUNCIONAMIENTO
   ```
   $ b = 2 + 6 * 3
   ```
@@ -59,6 +72,12 @@ El compilador puede realizar las siguientes operaciones:
   ```
   
   ### Analisis lexico
+  
+   DESCRIPCION
+   <br>
+   La funcion del lexer es desglozar el codigo y separar cada uno de los tokens que la conforman, guarda la informacion necesaria como identificadores, literales y operadores. Se devuelve una lista con todos los elementos clasificados que hacen parte de la entrada. 
+  
+   PRUEBA FUNCIONAMIENTO
   ```
   $ c = d + 34 * 5 / ( 4 + 3 )
   ```
@@ -79,6 +98,12 @@ El compilador puede realizar las siguientes operaciones:
   ```
   
   ### Interprete
+  
+   DESCRIPCION
+   <br>
+   El interprete traduce cada una de las lineas del codigo, las lee, las analiza y realiza su ejecucion. Para agregar esta parte al compilador se deben modificar los archivos que conforman el ```lexer``` y el ```parser```. Se agregan constantes (pi, euler) , funciones trigonometricas (sin, cos, asin, acos, atan, sinh, cosh, tanh, log, log10, exp, sqrt, int, abs, chr, clock), asignaciones (+=, -=, *=, /=, %=) y operadores (++, --).
+   
+   PRUEBA FUNCIONAMIENTO
   ```
   $ -10 / 2 * sin(10) + pi
   ```
