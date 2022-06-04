@@ -1,7 +1,14 @@
 # Reporte mortal
 Juego pygame.
+<br>
 Documento descriptivo del juego: 
 Tabla 3, Plantilla del Documento de Diseño (archivo disvideojuegos.pdf) 
+
+> Los archivos del juego se encuentran alojados en la siguiente direccion ya que excedian el tamaño maximo de Github
+> https://gitlab.com/valentina.varela/reporte-mortal
+
+> Para clonar el repositorio usar la siguiente direccion
+> https://gitlab.com/valentina.varela/reporte-mortal.git
 
 ## nivel 1: vista superior, modificadores y generadores de enemigos.
 https://youtu.be/InBeQisWl5M
