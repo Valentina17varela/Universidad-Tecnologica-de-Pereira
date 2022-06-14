@@ -1,4 +1,8 @@
 ## Decorator
+![](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java&logoColor=white&color=ed1d25)
+
+<br>
+
 Crear una aplicación en Java que le permita calcular el valor total de una bebida considerando el tipo de bebida, los aderezos y el tamaño del vaso:
 
 <br>
