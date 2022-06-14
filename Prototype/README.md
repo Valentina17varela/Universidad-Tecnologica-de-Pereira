@@ -1,4 +1,7 @@
 # Patron Prototipo
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=yellow&color=4b8bbe)
+![](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java&logoColor=whitew&color=ed1d25)
+
 Es un patrón de diseño creacional, que tiene como objetivo crear a partir de un modelo. Especificar el tipo de objetos que se crearán mediante una instancia prototípica, 
 y crear nuevos objetos copiando este prototipo.
 
