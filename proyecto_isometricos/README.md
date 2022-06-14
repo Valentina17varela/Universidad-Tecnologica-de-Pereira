@@ -1,4 +1,6 @@
 # Figura isometrica
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=yellow&color=4b8bbe)
+![](https://img.shields.io/badge/Lib-Pygame-informational?style=flat&logo=python&logoColor=yellow&color=4b8bbe)
 
 Implementacion de una figura isometrica de tres superficies
 
