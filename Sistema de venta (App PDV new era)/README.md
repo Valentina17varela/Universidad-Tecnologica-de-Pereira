@@ -1,4 +1,7 @@
 ## **Sistema de ventas**
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=yellow&color=4b8bbe)
+![](https://img.shields.io/badge/Code-SQL-informational?style=flat&logo=mySQL&logoColor=white&color=f29111)
+
 <br>
 Basado en el libro de patrones y diseños de software, UML
 <br>
