@@ -1,5 +1,5 @@
 ## Algoritmo de despacho FIFO
-
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=yellow&color=4b8bbe)
 
 ### Desarrollar un algoritmo FIFO de reemplazo de páginas, se debe permitir el ingreso de una secuencia de mínimo 12 caracteres separadas por coma, e ingresar n cantidades de módulos de memoria, al final se debe visualizar el resultado por medio de una tabla.
 
