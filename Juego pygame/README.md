@@ -2,10 +2,14 @@
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=yellow&color=4b8bbe)
 ![](https://img.shields.io/badge/Lib-Pygame-informational?style=flat&logo=python&logoColor=yellow&color=4b8bbe)
 
-Juego pygame.
+<div  align="center">
+  <img src="https://github.com/Valentina17varela/Universidad-Tecnologica-de-Pereira/blob/main/Juego%20pygame/portada.png" width="550"/>
+</div>
+
 <br>
-Documento descriptivo del juego: 
-Tabla 3, Plantilla del Documento de Diseño (archivo disvideojuegos.pdf) 
+
+La explicación e historia del juego se puede encontrar en el siguiente documento:
+[Documento descriptivo del juego](https://github.com/Valentina17varela/Universidad-Tecnologica-de-Pereira/blob/main/Juego%20pygame/Diseño_NicolasCarvaja_ValentinaVarela.pdf)
 
 > Los archivos del juego se encuentran alojados en la siguiente direccion ya que excedian el tamaño maximo de Github
 > https://gitlab.com/valentina.varela/reporte-mortal
@@ -13,8 +17,14 @@ Tabla 3, Plantilla del Documento de Diseño (archivo disvideojuegos.pdf)
 > Para clonar el repositorio usar la siguiente direccion
 > https://gitlab.com/valentina.varela/reporte-mortal.git
 
+<br>
+
 ## nivel 1: vista superior, modificadores y generadores de enemigos.
 https://youtu.be/InBeQisWl5M
+
+<div  align="center">
+  <img src="https://github.com/Valentina17varela/Universidad-Tecnologica-de-Pereira/blob/main/Juego%20pygame/nivelVistaSuperior.png" width="550"/>
+</div>
 
 Requerimientos:
 
@@ -33,6 +43,10 @@ Requerimientos:
 
 ## nivel 2: plataforma, enemigo estatico y dinamico
 https://youtu.be/9qYffuU4rsA
+
+<div  align="center">
+  <img src="https://github.com/Valentina17varela/Universidad-Tecnologica-de-Pereira/blob/main/Juego%20pygame/nivelPlataforma.png" width="550"/>
+</div>
 
 Requerimientos:
 
