@@ -1,4 +1,7 @@
 # **Compilador Mini C**
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=yellow&color=4b8bbe)
+![](https://img.shields.io/badge/Code-C-informational?style=flat&logo=C&logoColor=white&color=5E97D0)
+
 Compilador simplificado del lenguaje C. Las reglas gramaticales que utiliza este lenguaje se encuentran especificadas en  ```minic.txt ```.
 
 Para iniciar el programa ejecutar el archivo:
