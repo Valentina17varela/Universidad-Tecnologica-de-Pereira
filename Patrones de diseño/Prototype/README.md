@@ -1,4 +1,7 @@
 ## Prototype
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=yellow&color=4b8bbe)
+<br>
+<br>
 Cree una aplicación en Python que le permita a un usuario configurar 3 planes de telefonía celular: cargo fijo, datos, minutos incluidos.
 
 <div align=center>
